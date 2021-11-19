@@ -1,0 +1,1 @@
+Save images of the meeting summary.
