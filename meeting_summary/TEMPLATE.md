@@ -1,4 +1,4 @@
-# YYYY.MM.DD 会议纪要
+# YYYY.MM.DD 分享纪要
 
 - 分享人：xxxxx
 - 记录人：xxxxx
@@ -17,7 +17,7 @@
 
 **基本思路：xxxxxxxxxxxxxxxxxx**
 
-1. [论文1](paper link)
+1. [论文1]()
 
    方法概述
 
@@ -29,7 +29,7 @@
 
 **基本思路:XXXXXXXXXXXXXXX**
 
-1. [论文1](paper link)
+1. [论文1]()
 
    方法概述
 
