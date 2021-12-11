@@ -1,15 +1,11 @@
-### Apache IoTDB时序数据库概述
-
-------
+## Apache IoTDB时序数据库概述
 
 - 时间：2021.11.12
 - 分享人：周帆
 - 关键字：IoTDB、Aggregate Query、PISA、Dual-PISA
 - 分享PPT:[2021-11-12-Apache-IoTDB时序数据库](./slides/2021-11-12-Apache-IoTDB时序数据库.pdf)
 
-### 分享内容
-
-------
+## 分享内容
 
 #### 问题描述
 
@@ -28,7 +24,6 @@ TsFile：时间序列文件格式
 参考文献：[Apache IoTDB: Time-series Database for Internet of Things ](https://www.vldb.org/pvldb/vol13/p2901-wang.pdf)
 
 
-
 **二、聚合索引(PISA)**
 
 - 待解决的问题
@@ -42,7 +37,6 @@ TsFile：时间序列文件格式
   3. 查询算法。放弃层级读取，使用**公式**直接定位有关节点，避免读取不必要的节点
 
 参考文献：[PISA: an Index for Aggregating Big Time Series Data](https://dl.acm.org/doi/pdf/10.1145/2983323.2983775)
-
 
 
 **三、基于乱序数据的聚合索引(Dual-PISA)**
