@@ -7,7 +7,7 @@
 - 分享人：周帆
 - 关键字：IoTDB、Aggregate Query、PISA、Dual-PISA
 
-- 分享PPT: [2021-11-12-Apache IoTDB时序数据库](./slides/2021-11-12-Apache IoTDB时序数据库.pdf)
+- 分享PPT:[2021-11-05-基于LSM的KV存储写放大优化](./slides/2021-11-05-基于LSM的KV存储写放大优化.pdf)
 
 ### 分享内容
 
