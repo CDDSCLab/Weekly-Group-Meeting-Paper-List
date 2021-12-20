@@ -10,3 +10,4 @@ DSCL weekly group meeting paper list.
 | 2021-11-26 | Determinacy database |                      Calvin, PWV, Aria                       |     [doc](./meeting_summary/2021-11-27-确定性数据库.md)      |
 | 2021-12-03 |    Stream system     |            Stream, End to end consistency, Flink             | [doc](./meeting_summary/2021-12-03-流计算端到端一致性概述.md) |
 | 2021-12-10 | LSM Compaction Mechanism |                       LSM, Compaction                        |  [doc](./meeting_summary/2021-12-10-LSM_Compaction_设计.md)  |
+| 2021-12-17 | cloud native database | cloud，native，polardb，polardb Serverless | [doc](./meeting_summary/2021-12-17-云原生数据库polardb.md) |
