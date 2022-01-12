@@ -11,3 +11,4 @@ DSCL weekly group meeting paper list.
 | 2021-12-03 |    Stream system     |            Stream, End to end consistency, Flink             | [doc](./meeting_summary/2021-12-03-流计算端到端一致性概述.md) |
 | 2021-12-10 | LSM Compaction Mechanism |                       LSM, Compaction                        |  [doc](./meeting_summary/2021-12-10-LSM_Compaction_设计.md)  |
 | 2021-12-17 | Cloud Native Database | Cloud，Native，Polardb，Polardb Serverless | [doc](./meeting_summary/2021-12-17-云原生数据库polardb.md) |
+| 2021-12-31 | Cloud Native Database Architecture: Log is DB | Log is DB, Clound native | [doc](./meeting_summary/2021-12-31-云原生数据库架构_Log_is_DB.md) |
