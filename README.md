@@ -12,3 +12,5 @@ DSCL weekly group meeting paper list.
 | 2021-12-10 | LSM Compaction Mechanism |                       LSM, Compaction                        |  [doc](./meeting_summary/2021-12-10-LSM_Compaction_设计.md)  |
 | 2021-12-17 | Cloud Native Database | Cloud，Native，Polardb，Polardb Serverless | [doc](./meeting_summary/2021-12-17-云原生数据库polardb.md) |
 | 2021-12-31 | Cloud Native Database Architecture: Log is DB | Log is DB, Clound native | [doc](./meeting_summary/2021-12-31-云原生数据库架构_Log_is_DB.md) |
+| 2022-1-7 | NVM for storage engine | NVM,B+tree,LSM-tree | [doc](./meeting_summary/2022-1-7-基于NVM的数据库存储引擎优化.md) |
+
