@@ -3,7 +3,7 @@
 - 分享人：xxxxx
 - 记录人：xxxxx
 - 关键词：**3-5个关键词，描述本次分享的方向**
-- 分享PPT: [name-topic.pdf](./slides/xxxx)
+- 分享PPT: [name-topic.pdf](./slides/xxxx) (注意文件名使用空格会导致跳转失败，可以使用破折号`-`连接)
 
 ## 分享内容
 
