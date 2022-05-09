@@ -3,7 +3,7 @@
 - 时间：2021.12.10
 - 分享人：牟泽培
 - 关键字：LSM、Compaction
-- 分享PPT：[2021-12-10-LSM compaction 设计](./slides/2021-12-10-LSM compaction 设计.pdf)
+- 分享PPT：[2021-12-10-LSM compaction 设计](./slides/2021-12-10-LSM-compaction-设计.pdf)
 
 ## 分享内容
 
