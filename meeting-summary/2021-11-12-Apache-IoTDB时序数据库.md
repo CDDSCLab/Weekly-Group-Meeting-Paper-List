@@ -2,7 +2,7 @@
 
 - 时间：2021.11.12
 - 分享人：周帆
-- 关键字：IoTDB、Aggregate Query、PISA、Dual-PISA
+- 关键字：IoTDB, Aggregate Query, PISA, Dual-PISA
 - 分享PPT: [2021-11-12-Apache-IoTDB时序数据库](./slides/2021-11-12-Apache-IoTDB时序数据库.pdf)
 
 ## 分享内容
