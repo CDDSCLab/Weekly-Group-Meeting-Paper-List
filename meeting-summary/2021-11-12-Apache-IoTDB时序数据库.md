@@ -2,7 +2,7 @@
 
 - 时间：2021.11.12
 - 分享人：周帆
-- 关键字：IoTDB、Aggregate Query、PISA、Dual-PISA
+- 关键字：IoTDB, Aggregate Query, PISA, Dual-PISA
 - 分享PPT: [2021-11-12-Apache-IoTDB时序数据库](./slides/2021-11-12-Apache-IoTDB时序数据库.pdf)
 
 ## 分享内容
@@ -11,9 +11,9 @@
 
 针对传统时序数据库聚合性能差问题，本次分享对Apache IoTDB时序数据库的文件格式、聚合查询索引(PISA)、基于乱序数据的聚合查询索引(Dual-PISA)进行了详细分析。
 
-### 分享内容
+### 解决思路
 
-**一、文件格式**
+#### 一、文件格式
 
 TsFile：时间序列文件格式
 
@@ -21,10 +21,9 @@ TsFile：时间序列文件格式
 
 <img src="./imgs/image-20211210154744416.png" alt="image-20211210154744416" style="zoom:60%;" />
 
-参考文献：[Apache IoTDB: Time-series Database for Internet of Things ](https://www.vldb.org/pvldb/vol13/p2901-wang.pdf)
+参考文献：[Apache IoTDB: Time-series Database for Internet of Things](https://www.vldb.org/pvldb/vol13/p2901-wang.pdf)
 
-
-**二、聚合索引(PISA)**
+#### 二、聚合索引(PISA)
 
 - 待解决的问题
   - 层级读取，将读取很多不必要的节点
@@ -38,8 +37,7 @@ TsFile：时间序列文件格式
 
 参考文献：[PISA: an Index for Aggregating Big Time Series Data](https://dl.acm.org/doi/pdf/10.1145/2983323.2983775)
 
-
-**三、基于乱序数据的聚合索引(Dual-PISA)**
+#### 三、基于乱序数据的聚合索引(Dual-PISA)
 
 - 待解决问题
   - PISA只能处理有限的乱序数据，大部分乱序数据直接被丢弃
