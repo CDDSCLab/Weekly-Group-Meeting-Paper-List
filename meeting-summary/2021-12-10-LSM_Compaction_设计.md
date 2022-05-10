@@ -2,21 +2,21 @@
 
 - 时间：2021.12.10
 - 分享人：牟泽培
-- 关键字：LSM、Compaction
-- 分享PPT：[2021-12-10-LSM compaction 设计](./slides/2021-12-10-LSM compaction 设计.pdf)
+- 关键字：LSM, Compaction
+- 分享PPT：[2021-12-10-LSM compaction 设计](./slides/2021-12-10-LSM-compaction-设计.pdf)
 
 ## 分享内容
 
 ### 问题描述
+
 compaction是LSM存储体系的核心，也从根本上影响LSM存储引擎的性能，包括读写性能，空间占用。  
 因此，选择适当的压缩策略是至关重要的，同时也很困难，因为LSM compaction设计空间非常大，在文献中也没有正式定义。
 因此，大多数基于lsm的引擎使用固定的压缩策略，这通常是由工程师亲自选择的，它决定如何以及何时压缩数据。  
 本次分享主要基于[Constructing and Analyzing the LSM Compaction Design Space（VLDB2021）](http://vldb.org/pvldb/vol14/p2216-sarkar.pdf) 对LSM compaction做一个比较完整的定义，分析评估当前多种先进compaction策略的性能情况。算是对LSM compaction设计提供一个指南。
 
-
 ### 内容
 
-#### 背景：
+#### 背景
 
 1.LSM简介、LSM 的核心compaction介绍，定义：触发器+数据布局+粒度+数据移动策略。  
 2.RocksDB Universal-compaction 详解，单level/多level，主要参考[universal-compaction](https://github.com/facebook/rocksdb/wiki/Universal-Compaction)  
