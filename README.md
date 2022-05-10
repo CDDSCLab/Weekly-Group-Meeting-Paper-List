@@ -19,3 +19,5 @@ DSCL weekly group meeting paper list.
 | 2022-03-04 | NVM for Hashtables | NVM, Hashtables | [doc](./meeting-summary/2022-03-04-面向NVM的数据库哈希索引优化研究.md) |
 | 2022-03-25 | Memory Database | Trie, ART, HOT, Hyperion | [doc](./meeting-summary/2022-03-25-内存数据库简述及索引优化.md) |
 | 2022-04-01 | HTAP, Data formate | HTAP, PAX, Hyper, FSM, RealTime LSM | [doc](./meeting_summary/2022-04-01-HTAP概述及存储格式.md) |
+| 2022-04-29 | stream system rescale | Flink,Chi,TImely dataflow,megaPhone | [doc](./meeting-summary/2022-04-29-流计算引擎弹性扩展综述.md) |
+
