@@ -1,7 +1,7 @@
 # 2022.05.13 分享纪要
 
 - 分享人：李林峰
-- 关键词：SSD,LSM-tree,KV Separate,compaction
+- 关键词：SSD, LSM-tree, KV Separate, Compaction
 - 分享PPT: [基于SSD的LSM-tree键值分离](./slides/2022-05-13-基于SSD的LSM-tree键值分离.pdf)
 
 ## 分享内容： 基于SSD的LSM-tree键值分离
