@@ -104,7 +104,7 @@ LSM-tree被广泛应用，一个重要的原因就是因为在以前，机械硬
 
 5. 更新 LSM-tree中的地址信息
 
-### 2.3 **TerarkDB**
+### 2.3 **[TerarkDB](https://github.com/bytedance/terarkdb)**
 
 1. value 需要在前台被写入 WAL
 
@@ -118,7 +118,7 @@ LSM-tree被广泛应用，一个重要的原因就是因为在以前，机械硬
 
 2. compaction 过程中顺便更新value 位置信息
 
-### 2.4  TerarkDB
+### 2.4  [TItan](https://github.com/tikv/titan)
 
 1. 部分KV分离，存储形式 ：<key, <fileno, offset>>
 
