@@ -48,7 +48,7 @@ LSM-tree被广泛应用，一个重要的原因就是因为在以前，机械硬
 
 ## 2 KV分离策略
 
-### 2.1 wisckey
+### 2.1 [wisckey](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf)
 
 1. value放在value-log 文件中
 
@@ -74,7 +74,7 @@ LSM-tree被广泛应用，一个重要的原因就是因为在以前，机械硬
 
 4. 对于小value的范围查询性能较差
 
-### 2.2 HashKV
+### 2.2 [HashKV](https://www.usenix.org/system/files/conference/atc18/atc18-chan.pdf)
 
 **部分KV分离:**
 
@@ -140,7 +140,7 @@ LSM-tree被广泛应用，一个重要的原因就是因为在以前，机械硬
 
 3. 造成写放大，仅对 LSM-tree 中 Compaction 到最后两层数据对应的 BlobFile 进行 Level Merge
 
-### 2.5 NovKV
+### 2.5 [NovKV](https://storageconference.us/2020/Papers/15.NovKV.pdf)
 
 **设计亮点：**
 
@@ -174,7 +174,7 @@ GC流程：
 
 5. GC后的结果当这个KV被读取的时再更新（通过epoch判断）
 
-### 2.6 UniKV
+### 2.6 [UniKV](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/icde20.pdf)
 
 **优化点：采用分层体系结构实现差异化数据索引**
 
@@ -222,12 +222,3 @@ GC流程：
 
 7. KV被读取时再更新SSTable（NovKV）
 
-## Reference
-
-https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf
-
-https://www.usenix.org/system/files/conference/atc18/atc18-chan.pdf
-
-https://storageconference.us/2020/Papers/15.NovKV.pdf
-
-https://www.cse.cuhk.edu.hk/~pclee/www/pubs/icde20.pdf
