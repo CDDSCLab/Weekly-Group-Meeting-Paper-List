@@ -27,5 +27,5 @@ Keywords:
 - ...
 - [ ] Remember to add links to reference papers.
 - [ ] Make sure the link is accessible.
-- Use `-` to connect filename rather than ` `, the latter will casue dead link.
+- Use dash `-` to connect filename rather than space ` `, the latter will casue dead link.
 - [ ] Make sure latex formulas display normally, more can be found in [#27](https://github.com/CDDSCLab/Weekly-Group-Meeting-Paper-List/issues/27).
