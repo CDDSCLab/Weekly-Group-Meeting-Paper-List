@@ -21,4 +21,5 @@ DSCL weekly group meeting paper list.
 | 2022-04-01 | HTAP, Data formate | HTAP, PAX, Hyper, FSM, RealTime LSM | [doc](./meeting-summary/2022-04-01-HTAP概述及存储格式.md) |
 | 2022-04-29 | Stream System Rescale | Flink, Chi, TImely Dataflow, MegaPhone | [doc](./meeting-summary/2022-04-29-流计算引擎弹性扩展综述.md) |
 | 2022-05-13 | LSM-tree KV Separate | SSD, LSM-tree, KV Separate, Compaction | [doc](./meeting-summary/2022-05-13-基于SSD的LSM-tree键值分离.md) |
+| 2022-05-20 | Container, Kubernetes | Kubernetes, Container, Cloud Native | [doc](./meeting-summary/2022-05-20-云原生基础架构—Container、Kubernetes.md) |
 
