@@ -129,9 +129,7 @@ static void tpch_query1(int n, int hi_date,
 
 上面的 pipeline 和 pipeline breaker 指导了如何切分执行计划树。论文中对每个要 compilation 的 operator 定义了 `produce()` & `consume(attributes,source)` 两个需要实现的 abstraction 从而方便拓展，使得实现更加优雅。在 compilation 时使用深度优先遍历的顺序遍历执行计划树，每个算子递归调用它的 `produce` 接口进而调用其子算子的 `produce`, 计划树最底层是 scan 算子，其没有 `consume`接口，其`produce`接口会生成 scan 逻辑的代码，然后会调用父亲算子的 `consume` 生成他们的处理逻辑代码，完成后父亲算子会递归调用其父亲节点的 `consume` 直到没有上层节点。如此往复，即可将执行计划树转换成高级语言或者汇编语言，完成代码生成的全过程。
 
-<div  align="center">  <img src="https://ericfu.me/images/2019/03/code-gen-demo-animated.gif"/> </div>
-
-图源 [Coding Husky](https://ericfu.me/code-gen-of-query/#more)
+这篇博客[Coding Husky](https://ericfu.me/code-gen-of-query/#more) 有个直观的[gif](https://ericfu.me/images/2019/03/code-gen-demo-animated.gif)。
 
 ### 3.3 Adaptive Compilation (Hyper adaptive compilation 2018 [04])
 
