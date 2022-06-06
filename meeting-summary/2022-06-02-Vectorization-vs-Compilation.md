@@ -171,11 +171,11 @@ MonetDB(VectorWise) 和 Hyper 的作者 以及 CMU的 Andy Pavlo 等为了对比
 
 ## Reference
 
-[01] - [Boncz P A, Zukowski M, Nes N. MonetDB/X100: Hyper-Pipelining Query Execution[C]//Cidr. 2005, 5: 225-237.](http://cidrdb.org/cidr2005/papers/P19.pdf)\
-[02] - [Polychroniou O, Raghavan A, Ross K A. Rethinking SIMD vectorization for in-memory databases[C]//Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data. 2015: 1493-1508.](http://www.cs.columbia.edu/~orestis/sigmod15.pdf)\
-[03] - [Neumann T. Efficiently compiling efficient query plans for modern hardware[J]. Proceedings of the VLDB Endowment, 2011, 4(9): 539-550.](https://www.vldb.org/pvldb/vol4/p539-neumann.pdf)\
-[04] - [Kohn A, Leis V, Neumann T. Adaptive execution of compiled queries[C]//2018 IEEE 34th International Conference on Data Engineering (ICDE). IEEE, 2018: 197-208.](https://db.in.tum.de/~leis/papers/adaptiveexecution.pdf)\
-[05] - [Kersten T, Leis V, Kemper A, et al. Everything you always wanted to know about compiled and vectorized queries but were afraid to ask[J]. Proceedings of the VLDB Endowment, 2018, 11(13): 2209-2222.](https://www.vldb.org/pvldb/vol11/p2209-kersten.pdf)\
-[05] – 参考博文: https://www.one-tab.com/page/LmMkDhRhRWKUxU2bRRJgQA\
-[06] – cmu 15-721 2020 https://15721.courses.cs.cmu.edu/spring2020/\
-[07] - https://www.bilibili.com/video/BV1zb411G7ay/\
+[01] - [Boncz P A, Zukowski M, Nes N. MonetDB/X100: Hyper-Pipelining Query Execution[C]//Cidr. 2005, 5: 225-237.](http://cidrdb.org/cidr2005/papers/P19.pdf) \
+[02] - [Polychroniou O, Raghavan A, Ross K A. Rethinking SIMD vectorization for in-memory databases[C]//Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data. 2015: 1493-1508.](http://www.cs.columbia.edu/~orestis/sigmod15.pdf) \
+[03] - [Neumann T. Efficiently compiling efficient query plans for modern hardware[J]. Proceedings of the VLDB Endowment, 2011, 4(9): 539-550.](https://www.vldb.org/pvldb/vol4/p539-neumann.pdf) \
+[04] - [Kohn A, Leis V, Neumann T. Adaptive execution of compiled queries[C]//2018 IEEE 34th International Conference on Data Engineering (ICDE). IEEE, 2018: 197-208.](https://db.in.tum.de/~leis/papers/adaptiveexecution.pdf) \
+[05] - [Kersten T, Leis V, Kemper A, et al. Everything you always wanted to know about compiled and vectorized queries but were afraid to ask[J]. Proceedings of the VLDB Endowment, 2018, 11(13): 2209-2222.](https://www.vldb.org/pvldb/vol11/p2209-kersten.pdf) \
+[05] – [参考博文链接汇总](https://www.one-tab.com/page/LmMkDhRhRWKUxU2bRRJgQA) \
+[06] – [CMU 15-721 2020](https://15721.courses.cs.cmu.edu/spring2020/)  \
+[07] - [PingCAP Infra Meetup No.98 Compiled and Vectorized Queries](https://www.bilibili.com/video/BV1zb411G7ay/)
