@@ -135,7 +135,7 @@ static void tpch_query1(int n, int hi_date,
 
 对于执行时间较长的 AP 负载，代码生成的 compilation time 相比于可能的性能提升来说往往时比较小的，是可以接受的，但是对于本身执行时间较短的 TP 负载，compilation 时间可能会比执行时间还长。
 <div  align="center">  <img src="imgs/20220602-three-mode.png"/> </div>
-争对这个问题，Hyper 实现了一种 adaptive compilation，根据不同负载选择不同的执行模式。为此 Hyper 首先实现了基于 vm 的 bytecode 解释执行模式，这种模式需要的编译时间很短，是所有 query 的默认执行模式。Hyper 使用 morsel-driven 的并行执行框架将 pipeline 按照输入切分，分成不同小任务以方便并行和模式切换。Hyper 会对 pipeline 多进程的执行平均速率，剩余 tuple 数量等进行监控，定时对不同模式完成盖 pipeline 剩余任务所需时间进行估计，选择所需最小时间的模式并在 thread 运行新的 morsel 时转换模式，如从 bytecode 解释运行转换为 compilation 模式。 注意 compilation 过程需要时间，此期间进程仍然可以以 bytecode 的模式处理。
+争对这个问题，Hyper 实现了一种 adaptive compilation，根据不同负载选择不同的执行模式。为此 Hyper 首先实现了基于 vm 的 bytecode 解释执行模式，这种模式需要的编译时间很短，是所有 query 的默认执行模式。Hyper 使用 morsel-driven 的并行执行框架将 pipeline 按照输入切分，分成不同小任务以方便并行和模式切换。Hyper 会对 pipeline 多进程的执行平均速率，剩余 tuple 数量等进行监控，定时对不同模式完成该 pipeline 剩余任务所需时间进行估计，选择所需最小时间的模式并在 thread 运行新的 morsel 时转换模式，如从 bytecode 解释运行转换为 compilation 模式。 注意 compilation 过程需要时间，此期间进程仍然可以以 bytecode 的模式处理。
 
 ```cpp
 // f: worker function
@@ -158,7 +158,7 @@ extrapolatePipelineDurations(f, n, w):
 
 MonetDB(VectorWise) 和 Hyper 的作者 以及 CMU的 Andy Pavlo 等为了对比这两种具有共同目标而方向又截然不同的 Execution 方案的优缺点及适用场景。因为这些系统有很多独有的特殊优化，他们实现了 Tectorwise(VectorWise) 和 Typer(Hyper) 这两个原型，除了 execution 架构上，其余实现上尽可能相同，如 operator 的算法等。
 
-对 Single-Threaded Performance, SIMD, INTRA-QUERY PARALLELIZATION, HARDWARE, Compilation Time 等方面进行了实验对比。得出了一下结论：
+对 Single-Threaded Performance, SIMD, INTRA-QUERY PARALLELIZATION, HARDWARE, Compilation Time 等方面进行了实验对比。得出了以下结论：
 
 |    Vectorized vs. Compiled   |                                                        分析                                                        |
 |:----------------------------:|:------------------------------------------------------------------------------------------------------------------:|
