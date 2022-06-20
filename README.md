@@ -16,12 +16,12 @@ DSCL weekly group meeting paper list.
 | 2021-12-31 | Cloud Native Database Architecture: Log is DB | Log is DB, Clound native | [doc](./meeting-summary/2021-12-31-云原生数据库架构-Log-is-DB.md) |
 | 2022-1-7 | NVM for Storage Engine | NVM, B+tree, LSM-tree | [doc](./meeting-summary/2022-1-7-基于NVM的数据库存储引擎优化.md) |
 | 2022-02-25 | Database Testing | Database Testing, Optimizer Testing | [doc](./meeting-summary/2022-02-25-数据库系统测试方法介绍.md) |
-| 2022-03-04 | NVM for Hashtables | NVM, Hashtables | [doc](./meeting-summary/2022-03-04-面向NVM的数据库哈希索引优化研究.md) |
+| 2022-03-04 | NVM，哈希 | NVM, Hashtables | [doc](./meeting-summary/2022-03-04-面向NVM的数据库哈希索引优化研究.md) |
 | 2022-03-25 | Memory Database | Trie, ART, HOT, Hyperion | [doc](./meeting-summary/2022-03-25-内存数据库简述及索引优化.md) |
 | 2022-04-01 | HTAP, Data formate | HTAP, PAX, Hyper, FSM, RealTime LSM | [doc](./meeting-summary/2022-04-01-HTAP概述及存储格式.md) |
 | 2022-04-29 | Stream System Rescale | Flink, Chi, TImely Dataflow, MegaPhone | [doc](./meeting-summary/2022-04-29-流计算引擎弹性扩展综述.md) |
 | 2022-05-13 | LSM-tree KV Separate | SSD, LSM-tree, KV Separate, Compaction | [doc](./meeting-summary/2022-05-13-基于SSD的LSM-tree键值分离.md) |
 | 2022-05-20 | Container, Kubernetes | Kubernetes, Container, Cloud Native | [doc](./meeting-summary/2022-05-20-云原生基础架构—Container、Kubernetes.md) |
-| 2022-05-27 | NVM，索引 | NVM, B+tree, Radix tree, Hash, Skiplist | [doc](./meeting-summary/2022-05-27-NVM与数据库索引.md) |
+| 2022-05-27 | NVM，Index | NVM, B+tree, Radix tree, Hash, Skiplist | [doc](./meeting-summary/2022-05-27-NVM与数据库索引.md) |
 | 2022-06-02 | Vectorization vs Compilation | Execution Engine, Volcano, Vectorization, Compilation | [doc](./meeting-summary/2022-06-02-Vectorization-vs-Compilation.md) |
 | 2022-06-17 | NVM，故障恢复机制 | Aries、MARS、WBL | [doc](./meeting-summary/2022-06-17-面向NVM的数据库故障恢复机制.md) |
