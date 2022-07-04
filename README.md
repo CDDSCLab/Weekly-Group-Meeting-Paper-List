@@ -25,3 +25,4 @@ DSCL weekly group meeting paper list.
 | 2022-05-27 | NVM，Index | NVM, B+tree, Radix tree, Hash, Skiplist | [doc](./meeting-summary/2022-05-27-NVM与数据库索引.md) |
 | 2022-06-02 | Vectorization vs Compilation | Execution Engine, Volcano, Vectorization, Compilation | [doc](./meeting-summary/2022-06-02-Vectorization-vs-Compilation.md) |
 | 2022-06-17 | NVM，故障恢复机制 | Aries、MARS、WBL | [doc](./meeting-summary/2022-06-17-面向NVM的数据库故障恢复机制.md) |
+| 2022-06-24 | RDMA | RDMA, distributed system, shared memory | [doc](./meeting-summary/2022-06-24-基于RDMA的分布式系统研究介绍.md) |
