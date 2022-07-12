@@ -26,3 +26,4 @@ DSCL weekly group meeting paper list.
 | 2022-06-02 | Vectorization vs Compilation | Execution Engine, Volcano, Vectorization, Compilation | [doc](./meeting-summary/2022-06-02-Vectorization-vs-Compilation.md) |
 | 2022-06-17 | NVM，故障恢复机制 | Aries、MARS、WBL | [doc](./meeting-summary/2022-06-17-面向NVM的数据库故障恢复机制.md) |
 | 2022-06-24 | RDMA | RDMA, Distributed System, Shared Memory | [doc](./meeting-summary/2022-06-24-基于RDMA的分布式系统研究介绍.md) |
+| 2022-07-08 | Table-to-Text | NLG, Table-to-Text, Logical NLG | [doc](./meeting-summary/2022-07-08-表格生成文本.md) |
