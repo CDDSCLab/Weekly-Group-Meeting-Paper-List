@@ -203,7 +203,7 @@ MD042: true
 # MD043/required-headings/required-headers - Required heading structure
 MD043:
   # List of headings
-  headings: []
+  headings: ["*"]
   # List of headings
   headers: []
 
