@@ -1,3 +1,4 @@
+<!-- markdownlint-disable -->
 <!--
 
 Thank you for collating and sharing your knowledge!
