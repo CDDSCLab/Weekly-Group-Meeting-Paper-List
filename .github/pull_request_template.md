@@ -29,3 +29,4 @@ Keywords:
 - [ ] Make sure the link is accessible.
 - Use dash `-` to connect filename rather than space ` `, the latter will casue dead link.
 - [ ] Make sure latex formulas display normally, more can be found in [#31](https://github.com/CDDSCLab/Weekly-Group-Meeting-Paper-List/discussions/31).
+- [ ] Pass the Markdown lint check, more can be found in [#31](https://github.com/CDDSCLab/Weekly-Group-Meeting-Paper-List/discussions/31#discussioncomment-3828772).
