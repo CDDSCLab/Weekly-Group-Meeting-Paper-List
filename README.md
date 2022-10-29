@@ -27,6 +27,6 @@ DSCL weekly group meeting paper list.
 | 2022-06-17 |               NVM，故障恢复机制               |                       Aries、MARS、WBL                       | [doc](./meeting-summary/2022-06-17-面向NVM的数据库故障恢复机制.md) |
 | 2022-06-24 |                     RDMA                      |           RDMA, Distributed System, Shared Memory            | [doc](./meeting-summary/2022-06-24-基于RDMA的分布式系统研究介绍.md) |
 | 2022-07-08 |                 Table-to-Text                 |               NLG, Table-to-Text, Logical NLG                |     [doc](./meeting-summary/2022-07-08-表格生成文本.md)      |
-| 2022-07-15 |          in-memory database for htap          |                   HTAP, shared, isolation                    | [doc](./meeting-summary/2022-07-15-面向HTAP的内存数据库.md)  |
+| 2022-07-15 |          in-memory database for htap          |                   HTAP, Shared, Isolation                    | [doc](./meeting-summary/2022-07-15-面向HTAP的内存数据库.md)  |
 | 2022-09-09 |                Open-domain QA                 |             NLP, Table QA, Information Retrieval             |    [doc](./meeting-summary/2022-09-09-表格开领域问答.md)     |
 
