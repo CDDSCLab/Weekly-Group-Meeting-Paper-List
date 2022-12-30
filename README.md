@@ -33,3 +33,16 @@ DSCL weekly group meeting paper list.
 | 2022-07-15 |                 in-memory database for htap                  |                       HTAP, Shared, Isolation                        |         [doc](./meeting-summary/2022-07-15-面向HTAP的内存数据库.md)         |
 | 2022-08-26 |                       Database tuning                        |                  OtterTune，CDBTune，Hunter，QTune                   |           [doc](./meeting-summary/2022-08-26-数据库之智能调参.md)           |
 | 2022-09-09 |                        Open-domain QA                        |                 NLP, Table QA, Information Retrieval                 |            [doc](./meeting-summary/2022-09-09-表格开领域问答.md)            |
+| 2022-09-16 |                                                              |                                                              |                                                              |
+| 2022-09-23 |                                                              |                                                              |                                                              |
+| 2022-10-14 |                                                              |                                                              |                                                              |
+| 2022-10-21 |                                                              |                                                              |                                                              |
+| 2022-10-28 |                                                              |                                                              |                                                              |
+| 2022-11-04 |                                                              |                                                              |                                                              |
+| 2022-11-11 |                                                              |                                                              |                                                              |
+| 2022-11-18 |                                                              |                                                              |                                                              |
+| 2022-11-25 |                                                              |                                                              |                                                              |
+| 2022-12-02 |                                                              |                                                              |                                                              |
+| 2022-12-16 |                                                              |                                                              |                                                              |
+| 2022-12-23 |                                                              |                                                              |                                                              |
+| 2022-12-30 |                                                              |                                                              |                                                              |
