@@ -34,6 +34,7 @@ DSCL weekly group meeting paper list.
 | 2022-08-26 |                       Database tuning                        |                  OtterTune，CDBTune，Hunter，QTune                   |           [doc](./meeting-summary/2022-08-26-数据库之智能调参.md)           |
 | 2022-09-09 |                        Open-domain QA                        |                 NLP, Table QA, Information Retrieval                 |            [doc](./meeting-summary/2022-09-09-表格开领域问答.md)            |
 | 2022-09-09 |             Introduction of Query Optimization               |        Logical /Physical Query Optimization, Execution Engine        |            [doc](./meeting-summary/2022-09-19-查询优化概述.md)            |
+| 2022-09-09 |        Query Optimization Through Materialized View          |                 Query Optimization, Materialized View                |            [doc](./meeting-summary/2023-05-06-通过物化视图进行查询优化.md) |
 | 2022-09-16 |                                                              |                                                              |                                                              |
 | 2022-09-23 |                                                              |                                                              |                                                              |
 | 2022-10-14 |                                                              |                                                              |                                                              |
